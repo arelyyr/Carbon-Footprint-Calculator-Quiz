@@ -1,11 +1,3 @@
-//5/4/23 v1.9
-// directed acyclic graph implementation
-// based on 19.9 zybooks
-// uses an adjacency list to represent graph, using two unordered maps 
-//
-// acyclic to prevent question repeats
-// 
-// ask question and provide answers (what is ___? 1. first answer 2. second answer, etc.)
 #ifndef DAG_H
 #define DAG_H
 
@@ -14,11 +6,6 @@
 #include <unordered_set>
 #include <vector>
 
-//      question (as a string)
-//      possible answers (as a string)
-//      correct answer (1,2,3,a,b,c, etc.) (as a char)
-//      response text if answered right (as a string)
-//      response text if answered wrong (as a string)
 class Vertex {
 private:
 public:
